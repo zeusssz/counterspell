@@ -13,8 +13,7 @@ export default function Locations() {
     "Austin, TX",
     "San Francisco, CA",
     "Burlington, VT",
-    "Oshkosh, WI",
-    "Atlanta, GA"
+    "Oshkosh, WI"
   ];
 
   const [submitBtn, setSubmitBtn] = useState("Sign up");
