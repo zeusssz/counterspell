@@ -1,17 +1,32 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import App from "./pages/App";
+import NotFound from "./pages/NotFound";
+
+// To add your own page, uncomment the following import statement.
+// Replace `ExampleCity` with the name of your city.
+// E.g. Ottawa, ON -> `Ottawa`.
+// import ExampleCity from "./pages/ExampleCity";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+
+        {/*
+          To add your own page, copy paste and uncomment the following code! 
+          Replace `/example-city` and `ExampleCity` with the name of your city.
+          E.g. Ottawa, ON -> `/ottawa` and `Ottawa`.
+        */}
+        {/* <Route path="/example-city" element={<ExampleCity />} /> */}
+
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

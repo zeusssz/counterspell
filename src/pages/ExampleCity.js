@@ -1,20 +1,39 @@
+"======== READ ME BEFORE EDITING ========";
+/*
+Hello! this is the template for the city pages.
+To create a new page, make a copy of this file in the same directory (src/pages) and rename it for your city.
+Make a copy of the example components (src/components/ExampleCity) and rename it for your city.
+E.g. Ottawa, ON -> Ottawa.js
+
+Replace all placeholder info, indicated by "TODO" comments, in this file and the components with the appropriate content!
+You do not need to use this template exactly, feel free to customize it as much as you see fit.
+
+Once you're done, make sure to update the routes in src/index.js to include your new page. There's an example there.
+
+If you have any questions, send a message to the #counterspell channel on the Hack Club Slack and we'll try to help.
+
+P.S. Feel free to delete this comment block when you're done! 
+*/
+
 import "./App.css";
 import React, { useEffect, useRef, useState } from "react";
 import { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import useSound from "use-sound";
 
-import Hero from "./components/Hero";
-import Locations from "./components/Locations";
-import Cards from "./components/Cards";
-import Steps from "./components/Steps";
-import About from "./components/About";
-import Faq from "./components/Faq";
+// TODO: Change `ExampleCity` to the name of your city
+import Hero from "../components/ExampleCity/Hero";
+import Locations from "../components/ExampleCity/Locations";
+import Cards from "../components/ExampleCity/Cards";
+import Steps from "../components/ExampleCity/Steps";
+import About from "../components/ExampleCity/About";
+import Faq from "../components/ExampleCity/Faq";
 
-import music from "./music.mp3";
-import Footer from "./components/Footer";
+import music from "../music.mp3";
+import Footer from "../components/Footer";
 
-export default function App() {
+// TODO: Change `ExampleCity` to the name of your city
+export default function ExampleCity() {
   const [init, setInit] = useState(false);
   const [docHeight, setDocHeight] = useState(0);
   const [scrollPos, setScrollPos] = useState(0);
@@ -108,15 +127,6 @@ export default function App() {
       <audio ref={audioRef} loop autoPlay>
         <source src="/haunted.mp3" type="audio/mp3" />
       </audio>
-
-      <a
-        className="hidden sm:block text-white fixed top-4 right-4 retro bg-pink py-2 px-3 uppercase z-50 hover:scale-105 hover:text-white"
-        href="https://hack.club/counterspell-signup"
-        target="_blank"
-        style={{ textDecorationLine: "none" }}
-      >
-        Sign up to organize
-      </a>
 
       <Hero />
 
