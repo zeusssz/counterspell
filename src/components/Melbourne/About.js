@@ -11,9 +11,9 @@ export default function About() {
         <div className="grid grid-cols-1 xl:grid-cols-2 grid-rows-2 gap-12 leading-[3rem] tracking-wider mx-6 2xl:mx-0">
           <div className="row-span-2 border-4 border-pink border-dashed p-8 md:p-12 space-y-12">
             <p>
-              {/* TODO: Change `Example City` to the name of your city */}
-              Counterspell Example City is a beginner friendly game jam for high
-              schoolers happening in Example City where{" "}
+              {}
+              Counterspell Melbourne is a beginner friendly game jam for high
+              schoolers happening in Melbourne where{" "}
               <span className="text-pink">
                 artists, musicians, and coders
               </span>{" "}
@@ -21,12 +21,12 @@ export default function About() {
             </p>
             <p className="retro text-2xl uppercase">Build whatever you want!</p>
             <p>
-              {/* TODO: Change `Example City` to the name of your city */}
-              Any game counts! The theme for Counterspell Example City will be
+              {}
+              Any game counts! The theme for Counterspell Melbourne will be
               decided through peer voting before the event starts.{" "}
             </p>
             <p>
-              {/* TODO: Change `24 hours` to match your event duration */}
+              {/* TODO: Confirm event duration and update accordingly */}
               Whether you’re a beginner or experienced in programming- we’ll
               have workshops, resources and mentors throughout the 24 hours to
               help you with your project.
