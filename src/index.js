@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound";
 // To add your own page, uncomment the following import statement.
 // Replace `ExampleCity` with the name of your city.
 // E.g. Ottawa, ON -> `Ottawa`.
+// import ExampleCity from "./pages/ExampleCity";
 import Singapore from "./pages/Singapore";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -23,6 +24,7 @@ root.render(
           Replace `/example-city` and `ExampleCity` with the name of your city.
           E.g. Ottawa, ON -> `/ottawa` and `Ottawa`.
         */}
+        {/* <Route path="/example-city" element={<ExampleCity />} /> */}
         <Route path="/singapore" element={<Singapore />} />
 
         <Route path="*" element={<NotFound />} />
