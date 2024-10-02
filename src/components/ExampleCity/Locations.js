@@ -41,7 +41,7 @@ export default function Locations() {
             Counterspell Example City is organized by teenagers, for teenagers.
           </p>
           <p>
-            {/* TODO: Replace `Example City` with your city */} Organize an
+            {/* TODO: Replace `Example City` with your city */} Organize a
             Counterspell event in your city.{" "}
             <a
               href="https://hack.club/counterspell-signup"
