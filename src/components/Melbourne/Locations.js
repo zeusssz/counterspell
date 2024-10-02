@@ -41,7 +41,7 @@ export default function Locations() {
             Counterspell Melbourne is organized by teenagers, for teenagers.
           </p>
           <p>
-            {} Organize an
+            {} Organize a
             Counterspell event in your city.{" "}
             <a
               href="https://hack.club/counterspell-signup"
