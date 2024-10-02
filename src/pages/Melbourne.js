@@ -24,12 +24,12 @@ import { loadFull } from "tsparticles";
 import useSound from "use-sound";
 
 // TODO: Change `ExampleCity` to the name of your city
-import Hero from "../components/ExampleCity/Hero";
-import Locations from "../components/ExampleCity/Locations";
-import Cards from "../components/ExampleCity/Cards";
-import Steps from "../components/ExampleCity/Steps";
-import About from "../components/ExampleCity/About";
-import Faq from "../components/ExampleCity/Faq";
+import Hero from "../components/Melbourne/Hero";
+import Locations from "../components/Melbourne/Locations";
+import Cards from "../components/Melbourne/Cards";
+import Steps from "../components/Melbourne/Steps";
+import About from "../components/Melbourne/About";
+import Faq from "../components/Melbourne/Faq";
 
 import music from "../music.mp3";
 import Footer from "../components/Footer";
