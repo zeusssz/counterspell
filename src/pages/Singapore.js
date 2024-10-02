@@ -17,25 +17,25 @@ If you have any questions, send a message to the #counterspell channel on the Ha
 P.S. Feel free to delete this comment block when you're done! 
 */
 
-import "./App.css";
-import React, { useEffect, useRef, useState } from "react";
 import { initParticlesEngine } from "@tsparticles/react";
+import React, { useEffect, useRef, useState } from "react";
 import { loadFull } from "tsparticles";
 import useSound from "use-sound";
+import "./App.css";
 
 // TODO: Change `ExampleCity` to the name of your city
-import Hero from "../components/ExampleCity/Hero";
-import Locations from "../components/ExampleCity/Locations";
-import Cards from "../components/ExampleCity/Cards";
-import Steps from "../components/ExampleCity/Steps";
-import About from "../components/ExampleCity/About";
-import Faq from "../components/ExampleCity/Faq";
+import About from "../components/Singapore/About";
+import Cards from "../components/Singapore/Cards";
+import Faq from "../components/Singapore/Faq";
+import Hero from "../components/Singapore/Hero";
+import Locations from "../components/Singapore/Locations";
+import Steps from "../components/Singapose/Steps";
 
-import music from "../music.mp3";
 import Footer from "../components/Footer";
+import music from "../music.mp3";
 
 // TODO: Change `ExampleCity` to the name of your city
-export default function ExampleCity() {
+export default function Singapore() {
   const [init, setInit] = useState(false);
   const [docHeight, setDocHeight] = useState(0);
   const [scrollPos, setScrollPos] = useState(0);
