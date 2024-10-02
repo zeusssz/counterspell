@@ -23,7 +23,6 @@ import { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import useSound from "use-sound";
 
-// TODO: Change `ExampleCity` to the name of your city
 import Hero from "../components/Melbourne/Hero";
 import Locations from "../components/Melbourne/Locations";
 import Cards from "../components/Melbourne/Cards";
@@ -34,8 +33,7 @@ import Faq from "../components/Melbourne/Faq";
 import music from "../music.mp3";
 import Footer from "../components/Footer";
 
-// TODO: Change `ExampleCity` to the name of your city
-export default function ExampleCity() {
+export default function Melbourne() {
   const [init, setInit] = useState(false);
   const [docHeight, setDocHeight] = useState(0);
   const [scrollPos, setScrollPos] = useState(0);
