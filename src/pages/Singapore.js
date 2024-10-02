@@ -29,7 +29,7 @@ import Cards from "../components/Singapore/Cards";
 import Faq from "../components/Singapore/Faq";
 import Hero from "../components/Singapore/Hero";
 import Locations from "../components/Singapore/Locations";
-import Steps from "../components/Singapose/Steps";
+import Steps from "../components/Singapore/Steps";
 
 import Footer from "../components/Footer";
 import music from "../music.mp3";
