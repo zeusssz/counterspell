@@ -27,7 +27,7 @@ root.render(
         */}
         {/* <Route path="/example-city" element={<ExampleCity />} /> */
 
-            <Route path="/Melbourne" element={<Melbourne />} />
+          <Route path="/Melbourne" element={<Melbourne />} />
         }
 
         <Route path="*" element={<NotFound />} />
