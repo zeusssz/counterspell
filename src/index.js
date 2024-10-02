@@ -10,7 +10,6 @@ import NotFound from "./pages/NotFound";
 // Replace `ExampleCity` with the name of your city.
 // E.g. Ottawa, ON -> `Ottawa`.
 // import ExampleCity from "./pages/ExampleCity";
-
 import Atlanta from "./pages/Atlanta";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
