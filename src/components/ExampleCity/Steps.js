@@ -18,7 +18,7 @@ export default function Steps() {
               <StepCard
                 img={apo1}
                 // TODO: Change `Example City` to the name of your city
-                text="Sign up for a Counterspell Example City"
+                text="Sign up for Counterspell Example City"
               />
               <StepCard
                 img={apo2}
