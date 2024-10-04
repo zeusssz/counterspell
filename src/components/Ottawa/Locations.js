@@ -37,9 +37,9 @@ export default function Locations() {
 
       <div className="flex justify-center text-center text-2xl space-y-2 mt-20">
         <div className="border-4 border-dashed border-pink py-6 px-6 xl:px-12 neuebit tracking-wider text-4xl ">
+          {/* TODO: Replace `Example City` with your city */}
           <p>Counterspell Ottawa is organized by teenagers, for teenagers.</p>
           <p>
-            {/* TODO: Replace `Example City` with your city */}
             <a
               href="https://hack.club/counterspell-signup"
               target="_blank"

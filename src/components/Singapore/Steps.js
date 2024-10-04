@@ -15,10 +15,7 @@ export default function Steps() {
           </p>
           <div className="flex justify-center mx-12 my-6">
             <div className="border-4 border-pink border-dashed flex flex-wrap items-center justify-center inter p-8 gap-6">
-              <StepCard
-                img={apo1}
-                text="Sign up for a Counterspell Singapore"
-              />
+              <StepCard img={apo1} text="Sign up for Counterspell Singapore" />
               <StepCard
                 img={apo2}
                 text="Find a team of other teenagers at Counterspell"

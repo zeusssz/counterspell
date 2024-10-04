@@ -38,11 +38,11 @@ export default function Locations() {
       <div className="flex justify-center text-center text-2xl space-y-2 my-20">
         <div className="border-4 border-dashed border-pink py-6 px-6 neuebit tracking-wider text-4xl">
           <p>
+            {/* TODO: Replace `Example City` with your city */}
             Counterspell Example City is organized by teenagers, for teenagers.
           </p>
           <p>
-            {/* TODO: Replace `Example City` with your city */} Organize a
-            Counterspell event in your city.{" "}
+            Organize a Counterspell event in your city.{" "}
             <a
               href="https://hack.club/counterspell-signup"
               target="_blank"
