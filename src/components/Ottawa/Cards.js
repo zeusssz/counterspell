@@ -55,6 +55,15 @@ export default function Cards() {
           </p>
         </div>
       </div>
+      <a
+        className="z-30 mt-6 bg-pink max-w-6xl w-full py-6 px-6 text-2xl uppercase hover:text-white motion-safe:hover:scale-105 motion-safe:transition-all"
+        href="https://forms.hackclub.com/join-counterspell-ottawa"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ textDecorationLine: "none" }}
+      >
+        Sign up to attend Counterspell Ottawa
+      </a>
     </div>
   );
 }

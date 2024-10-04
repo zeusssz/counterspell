@@ -33,6 +33,7 @@ import Faq from "../components/Ottawa/Faq";
 
 import music from "../music.mp3";
 import Footer from "../components/Footer";
+import Sponsors from "../components/Ottawa/Sponsors";
 
 // TODO: Change `ExampleCity` to the name of your city
 export default function Ottawa() {
@@ -80,7 +81,7 @@ export default function Ottawa() {
   return (
     <div>
       <div
-        className="fixed bottom-0 left-0 right-0 h-36 pointer-events-none bg-gradient-to-t from-darker from-20% to-transparent z-10 motion-safe:transition-all"
+        className="fixed bottom-0 left-0 right-0 h-36 pointer-events-none bg-gradient-to-t from-darker from-20% to-transparent z-50 motion-safe:transition-all"
         style={{ opacity: docHeight - scrollPos < 1000 ? "0" : "100" }}
       ></div>
       <div
@@ -131,18 +132,18 @@ export default function Ottawa() {
       </audio>
 
       <a
-      className="hidden sm:block text-white fixed top-4 right-4 retro bg-pink py-2 px-3 uppercase z-50 hover:scale-105 hover:text-white"
-      href="https://forms.hackclub.com/join-counterspell-ottawa"
-      target="_blank"
-      style={{ textDecorationLine: "none" }}
-    >
-      Register to attend
-    </a>
+        className="hidden sm:block text-white fixed top-4 right-4 retro bg-pink py-2 px-3 uppercase z-50 hover:scale-105 hover:text-white"
+        href="https://forms.hackclub.com/join-counterspell-ottawa"
+        target="_blank"
+        style={{ textDecorationLine: "none" }}
+      >
+        Sign up to attend
+      </a>
 
       <Hero />
 
       <div className="relative">
-        <div class="absolute -bottom-4 left-0 right-0 top-0 grainy-bg pointer-events-none"></div>
+        <div class="absolute bottom-0 left-0 right-0 top-0 grainy-bg pointer-events-none"></div>
         <div class="absolute -bottom-4 left-0 right-0 top-0 -z-10 bg-dark"></div>
 
         <About />
@@ -153,9 +154,11 @@ export default function Ottawa() {
 
         <Locations />
 
+        <Sponsors />
+
         <div
           class="faq"
-          className="flex flex-col justify-center text-center retro py-12"
+          className="flex flex-col justify-center text-center retro py-12 bg-darker"
         >
           <div className="m-6">
             <p className="mb-6 text-3xl uppercase">

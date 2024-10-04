@@ -45,6 +45,7 @@ export default function Steps() {
               {/* TODO: Change `24 hours` to match your event duration */}
               <span className="text-pink">24 hours</span>
             </p>
+            <p>from Nov. 23, 2pm to Nov. 24th, 2pm</p>
             <p className="">
               Here's a rough schedule so you know what to expect!
             </p>
@@ -52,6 +53,17 @@ export default function Steps() {
         </div>
       </div>
       <Schedule />
+      <div className="flex justify-center leading-[3rem] tracking-wider mx-6 pb-12 retro text-center">
+        <a
+          className="z-40 mt-6 bg-pink max-w-4xl w-full py-6 px-6 text-2xl uppercase hover:text-white motion-safe:hover:scale-105 motion-safe:transition-all"
+          href="https://forms.hackclub.com/join-counterspell-ottawa"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecorationLine: "none" }}
+        >
+          Sign up to attend Counterspell Ottawa
+        </a>
+      </div>
     </div>
   );
 }

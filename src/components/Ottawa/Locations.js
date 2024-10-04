@@ -8,7 +8,7 @@ export default function Locations() {
   const cities = [
     "Boston, MA",
     "New York City, NY",
-    "Ottawa, ON",
+    "Atlanta, GA",
     "Basking Ridge, NJ",
     "Austin, TX",
     "San Francisco, CA",
@@ -35,14 +35,11 @@ export default function Locations() {
         </div>
       </div>
 
-      <div className="flex justify-center text-center text-2xl space-y-2 my-20">
-        <div className="border-4 border-dashed border-pink py-6 px-6 neuebit tracking-wider text-4xl">
+      <div className="flex justify-center text-center text-2xl space-y-2 mt-20">
+        <div className="border-4 border-dashed border-pink py-6 px-6 xl:px-12 neuebit tracking-wider text-4xl ">
+          <p>Counterspell Ottawa is organized by teenagers, for teenagers.</p>
           <p>
-            Counterspell Ottawa is organized by teenagers, for teenagers.
-          </p>
-          <p>
-            {/* TODO: Replace `Example City` with your city */} Organize a
-            Counterspell event in your city.{" "}
+            {/* TODO: Replace `Example City` with your city */}
             <a
               href="https://hack.club/counterspell-signup"
               target="_blank"
@@ -50,13 +47,13 @@ export default function Locations() {
               className="text-pink"
             >
               Sign up
-            </a>
-            .
+            </a>{" "}
+            to organize a Counterspell event in your city.
           </p>
         </div>
       </div>
 
-      <img
+      {/* <img
         src={flare1}
         alt=""
         className="w-48 absolute top-0 right-0 -z-10"
@@ -70,7 +67,7 @@ export default function Locations() {
         src={flare3}
         alt=""
         className="w-48 absolute bottom-8 right-0 -z-10"
-      ></img>
+      ></img> */}
     </div>
   );
 

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Banner from "@hackclub/banner";
 
 import billboard from "../../art/billboard.png";
-import title from "../../art/title.png";
+import title from "./art/title_ott.png";
 import smoke from "../../art/smoke.gif";
 import down from "../../art/down.png";
 
@@ -86,10 +86,11 @@ function HeroScroll() {
 
           <div className="flex justify-center text-center items-center">
             <div className="z-50 absolute top-[43%] lg:top-[47%] text-[60%] sm:text-[80%] md:text-[100%] lg:text-[140%] tracking-wide">
-              <p class="text-[#CFD8ED] retro">A BEGINNER FRIENDLY GAME JAM</p>
+              <p class="text-[#CFD8ED] retro">
+                OTTAWA'S FIRST HACKATHON/GAME JAM
+              </p>
               <p class="text-pink retro text-[80%] sm:text-[90%] lg:text-[90%] mt-2">
-                {/* TODO: Replace `EXAMPLE CITY` */}
-                NOVEMBER 23-24, 2024, OTTAWA
+                NOVEMBER 23-24, 2024 • SHOPIFY OTTAWA
               </p>
             </div>
           </div>

@@ -14,6 +14,7 @@ export default function Schedule() {
     { time: "10:00 AM", event: "Game demos!" },
     { time: "12:00 PM", event: "Lunch" },
     { time: "1:00 PM", event: "Closing ceremony" },
+    { time: "2:00 PM", event: "Event ends" },
   ];
 
   return (
