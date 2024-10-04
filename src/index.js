@@ -10,6 +10,7 @@ import NotFound from "./pages/NotFound";
 // Replace `ExampleCity` with the name of your city.
 // E.g. Ottawa, ON -> `Ottawa`.
 // import ExampleCity from "./pages/ExampleCity";
+import Ottawa from "./pages/Ottawa";
 import Atlanta from "./pages/Atlanta";
 import Singapore from "./pages/Singapore";
 import Melbourne from "./pages/Melbourne";
@@ -27,6 +28,7 @@ root.render(
           E.g. Ottawa, ON -> `/ottawa` and `Ottawa`.
         */}
         {/* <Route path="/example-city" element={<ExampleCity />} /> */}
+        <Route path="/ottawa" element={<Ottawa />} />
         <Route path="/atlanta" element={<Atlanta />} />
         <Route path="/singapore" element={<Singapore />} />
         <Route path="/melbourne" element={<Melbourne />} />
