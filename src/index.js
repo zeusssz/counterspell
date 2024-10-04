@@ -11,6 +11,7 @@ import NotFound from "./pages/NotFound";
 // E.g. Ottawa, ON -> `Ottawa`.
 // import ExampleCity from "./pages/ExampleCity";
 import Singapore from "./pages/Singapore";
+import Melbourne from "./pages/Melbourne";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -26,6 +27,7 @@ root.render(
         */}
         {/* <Route path="/example-city" element={<ExampleCity />} /> */}
         <Route path="/singapore" element={<Singapore />} />
+        <Route path="/melbourne" element={<Melbourne />} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>
