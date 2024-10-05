@@ -71,19 +71,6 @@ const faqData = [
           <a href="mailto:counterspell@hackclub.com">counterspell@hackclub.com</a>.
           We're always ready to answer all your questions!`,
   },
-  {
-    question: "Is this location going to be 24h?",
-    answer: "Yes! currently this location is planning to be a 24h event.",
-  },
-  {
-    question: `Is there a todo list or other resources related to the event?`,
-    answer: `Yes there is currently a <a href="https://docs.google.com/spreadsheets/d/1IcmiBLhSzTtFN9bzkFJ9jGuvQsxmCJG2O4sdZiWRc48/edit?gid=0#gid=0">Counterspell Boston Planning</a> and a <a href="https://docs.google.com/document/d/1zj5UDbMk_sG-zZtDAoAr-XZf0vGYc_yKV3H4Kr9wBPY/edit#heading=h.ys9rksov7ouz">Sponsor Prospectus</a>`,
-  },
-  {
-    question: "Where can i get more info/ask other questions?",
-    answer:
-      "You can ask them in <a href='https://hackclub.slack.com/archives/C07NXF78XUL'>#counterspell-boston</a> or email one of our <a href='https://hackclub.slack.com/docs/T0266FRGM/F07PGAMSLTF'>organizers</a>",
-  },
 ];
 
 function FaqCard(props) {
