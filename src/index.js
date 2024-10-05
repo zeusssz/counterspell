@@ -33,7 +33,6 @@ root.render(
         <Route path="/atlanta" element={<Atlanta />} />
         <Route path="/singapore" element={<Singapore />} />
         <Route path="/melbourne" element={<Melbourne />} />
-
         <Route path="/boston" element={<Boston />} />
 
         <Route path="*" element={<NotFound />} />
