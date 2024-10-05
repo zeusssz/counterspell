@@ -6,6 +6,7 @@ import flare3 from "../../art/flares/flare3.png";
 
 export default function Locations() {
   const cities = [
+    "Boston, MA",
     "New York City, NY",
     "Ottawa, ON",
     "Basking Ridge, NJ",
@@ -26,7 +27,13 @@ export default function Locations() {
       <div class="flex justify-center pt-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center text-2xl max-w-5xl w-full gap-8">
           {cities.map((city, i) => (
-            <p className={"lg:odd:text-left lg:even:text-right "}>{city}</p>
+            <p
+              className={`${
+                city.includes("Boston") ? "text-pink retro" : ""
+              }lg:odd:text-left lg:even:text-right `}
+            >
+              {city}
+            </p>
           ))}
         </div>
       </div>
