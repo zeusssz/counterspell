@@ -29,8 +29,8 @@ export default function Locations() {
           {cities.map((city, i) => (
             <p
               className={`${
-                city.includes("Boston") ? "text-pink retro" : ""
-              }lg:odd:text-left lg:even:text-right `}
+                city.includes("Boston") ? "text-pink" : ""
+              } lg:odd:text-left lg:even:text-right `}
             >
               {city}
             </p>
