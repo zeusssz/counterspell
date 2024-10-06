@@ -28,8 +28,14 @@ export default function Locations() {
       </p>
       <div class="flex justify-center pt-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center text-2xl max-w-5xl w-full gap-8">
-          {cities.map((city) => (
-            <p className="lg:odd:text-left lg:even:text-right">{city}</p>
+          {cities.map((city, i) => (
+            <p
+              className={`${
+                city.includes("Boston") ? "text-pink" : ""
+              } lg:odd:text-left lg:even:text-right `}
+            >
+              {city}
+            </p>
           ))}
         </div>
       </div>
