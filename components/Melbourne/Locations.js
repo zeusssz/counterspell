@@ -58,7 +58,7 @@ export default function Locations() {
         <p className="text-xl text-center">
           Get notified when registrations open
         </p>
-        <Subscribe />
+        <Subscribe eventName="Melbourne" />
       </div>
     </div>
   );

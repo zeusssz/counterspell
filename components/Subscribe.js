@@ -1,12 +1,12 @@
 import { useState } from "react";
 
-export default function Subscribe() {
+export default function Subscribe(props) {
   const [submitBtn, setSubmitBtn] = useState("Sign up");
 
   return (
     <form
       method="post"
-      action="https://app.loops.so/api/newsletter-form/clo3frr4v02f3jv0qqu6hgfqs"
+      action="/api/pre-signup"
       className="flex flex-col space-y-4 text-2xl retro sm:text-3xl lg:flex-row lg:space-y-0"
       onSubmit={handleSubmit}
     >
@@ -17,12 +17,9 @@ export default function Subscribe() {
         placeholder="fiona@hackclub.com"
         required
       />
-      <input type="hidden" name="userGroup" value="Hack Clubber" />
-      <input
-        type="hidden"
-        name="mailingLists"
-        value="cm1fqxdc900qn0ll9fd5m3wdv"
-      />
+      {!!props.eventName && (
+        <input type="hidden" name="event" value={props.eventName} />
+      )}
       <button
         type="submit"
         className="h-16 px-4 uppercase border-4 bg-pink sm:h-20 border-pink"

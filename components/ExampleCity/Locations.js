@@ -58,7 +58,8 @@ export default function Locations() {
         <p className="text-xl text-center">
           Get notified when registrations open
         </p>
-        <Subscribe />
+        {/* TODO: Replace `Example City` with your city */}
+        <Subscribe eventName="Example City" />
       </div>
     </div>
   );

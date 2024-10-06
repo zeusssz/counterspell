@@ -13,6 +13,7 @@
     "@dnd-kit/sortable": "^8.0.0",
     "@hackclub/banner": "^1.0.3",
     "@tsparticles/confetti": "^3.5.0",
+    "airtable-plus": "^1.0.4",
     "counterspell": "file:",
     "next": "14.2.14",
     "react": "^18",
