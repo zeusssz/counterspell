@@ -19,6 +19,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "fusion-pixel";
+  src: url("../public/fusion-pixel.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   @apply text-white scroll-smooth bg-dark;
 }
@@ -44,6 +52,10 @@ canvas,
 
 .retro {
   font-family: "retro", sans-serif;
+}
+
+.fusion-pixel {
+  font-family: "fusion-pixel", sans-serif;
 }
 
 @keyframes bobbing {
