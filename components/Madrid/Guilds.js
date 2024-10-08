@@ -1,10 +1,23 @@
 import { Tilt } from "react-next-tilt";
+import { useState, useEffect } from "react";
 
 export default function Guilds() {
+
+  
+  const [isFeminine, setFeminine] = useState(false);
+
+  useEffect(_=>{
+    const interval = setInterval(() => setFeminine(!isFeminine), 5000);
+
+    return () => clearInterval(interval);
+  
+  }, [isFeminine])
+
+
   return (
     <div className="flex flex-col items-center justify-center py-24 text-center retro bg-darker">
       <div className="text-3xl uppercase leading-[4rem] mx-6">
-        <p>¿Artista? ¿Músico? o ¿programador/a?</p>
+        <p>¿Artista, músic<span>{isFeminine ? "a" : "o"}</span> o programador<span className={!isFeminine ? "invisible" : ""}>a</span>?</p>
         <p>
           Únete a uno de los tres <span className="text-pink">grupos</span> al 
           inscribirte.
