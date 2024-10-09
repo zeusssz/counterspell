@@ -8,8 +8,8 @@ export default function Schedule() {
     { time: "1:30 PM", event: "Lunch" },
     { time: "2:30 PM", event: "Activity 1" },
     { time: "4:30 PM", event: "Lightning talks" },
-    { time: "5:30 AM", event: "Gamedev workshop 2" },
-    { time: "7:30 AM", event: "Game demos" },
+    { time: "5:30 PM", event: "Gamedev workshop 2" },
+    { time: "7:30 PM", event: "Game demos" },
     { time: "8:30 PM", event: "Closing ceremony" },
   ];
 
