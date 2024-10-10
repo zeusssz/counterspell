@@ -13,34 +13,34 @@ export default function Steps() {
               <StepCard
                 img="/photos/3.png"
                 // TODO: Change `Example City` to the name of your city
-                text="Sign up for Counterspell Example city"
+                text="Sign up for Counterspell Santiago"
               />
               <StepCard
                 img="/photos/4.png"
-                text="Find a team of other teenagers at Counterspell"
+                text="Encuentra un equipo de otros jovenes en Counterspell"
               />
               <StepCard
                 img="/photos/5.png"
-                text="Start building your game (no experience needed)"
+                text="Comienza a construir to juego (sin experiencia necesaria)"
               />
               <StepCard
                 img="/photos/6.png"
-                text="Attend workshops, or talk to one of our mentors for help"
+                text="Asiste a talleres, o hablale a algunos de nuestros mentores por ayuda"
               />
               <StepCard
                 img="/photos/7.png"
-                text="Ship what you made and share it with the rest of the world!"
+                text="Termina lo que hiciste y compartelo con el resto del mundo!"
               />
             </div>
           </div>
           <div className="py-10 mx-6 space-y-4 text-xl uppercase retro">
             <p>
               {/* TODO: Change `Example City` to the name of your city */}
-              Counterspell Example City will go on for{" "}
+              Counterspell Santiago durara{" "}
               {/* TODO: Change `24 hours` to match your event duration */}
-              <span className="text-pink">24 hours</span>
+              <span className="text-pink">12 horas</span>
             </p>
-            <p>Here's a rough schedule so you know what to expect!</p>
+            <p>Aqui hay un horario aproximado para que sepas lo que esperarte!</p>
           </div>
         </div>
       </div>

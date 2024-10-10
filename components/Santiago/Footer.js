@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <div className="p-6 pt-4 text-2xl bg-pink neuebit">
       <div className="text-center">
-        <p>Built with love by teenagers, for teenagers at Hack Club</p>
+        <p>Construido por amor por jovenes, para jovenes en Hack Club</p>
       </div>
       <div className="flex items-center justify-center ">
         <a
@@ -49,7 +49,7 @@ export default function Footer() {
           className="mx-2"
         >
           {/* Please keep this attribution */}
-          Art by Elena Baskakova (18, Boston)
+          Arte por by Elena Baskakova (18, Boston)
         </a>
       </div>
     </div>

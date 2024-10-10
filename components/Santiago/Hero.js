@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="min-h-screen">
         <div
           className="relative flex flex-col justify-center text-center bg-top bg-no-repeat bg-cover pointer-events-none select-none -z-10 overflow-x-clip"
-          style={{ backgroundImage: `url(/hero/bg5.png)` }}
+          style={{ backgroundImage: `url(/city/santiago/hero/bg5.png)` }}
         >
           <HeroScroll />
         </div>
@@ -75,11 +75,10 @@ function HeroScroll() {
           <div className="flex items-center justify-center text-center">
             <div className="z-50 absolute top-[43%] lg:top-[47%] text-[60%] sm:text-[80%] md:text-[100%] lg:text-[140%] tracking-wide">
               <p className="text-[#CFD8ED] retro">
-                A BEGINNER FRIENDLY GAME JAM
+                HACK CLUB'S BEGINNER FRIENDLY GAME JAM
               </p>
               <p className="text-pink retro text-[80%] sm:text-[90%] lg:text-[90%] mt-2">
-                {/* TODO: Replace `EXAMPLE CITY` with your city */}
-                NOVEMBER 23-24, 2024 • EXAMPLE CITY
+                NOVEMBER 23-24, 2024, IN 200+ CITIES
               </p>
             </div>
           </div>
@@ -93,7 +92,7 @@ function HeroScroll() {
               screenWidth > 640 ? (scrollY * 1) / 20 : 0
             }px)`,
           }}
-          src="/hero/bg1.png"
+          src="/city/santiago/hero/bg1.png"
           alt=""
         />
         <img
@@ -103,7 +102,7 @@ function HeroScroll() {
               screenWidth > 640 ? (scrollY * 2) / 20 : 0
             }px)`,
           }}
-          src="/hero/bg2.png"
+          src="/city/santiago/hero/bg2.png"
           alt=""
         />
         <img
@@ -113,7 +112,7 @@ function HeroScroll() {
               screenWidth > 640 ? (scrollY * 3) / 20 : 0
             }px)`,
           }}
-          src="/hero/bg3.png"
+          src="/city/santiago/hero/bg3.png"
           alt=""
         />
         <img
@@ -123,7 +122,7 @@ function HeroScroll() {
               screenWidth > 640 ? (scrollY * 4) / 20 : 0
             }px)`,
           }}
-          src="/hero/bg4.png"
+          src="/city/santiago/hero/bg4.png"
           alt=""
         />
       </div>

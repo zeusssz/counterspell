@@ -4,10 +4,9 @@ export default function Guilds() {
   return (
     <div className="flex flex-col items-center justify-center py-24 text-center retro bg-darker">
       <div className="text-3xl uppercase leading-[4rem] mx-6">
-        <p>Artist, Musician or Coder?</p>
+        <p>Artista, Musico o programador?</p>
         <p>
-          Join one of three <span className="text-pink">guilds</span> when you
-          sign up!
+          Unete a uno de tres <span className="text-pink">grupos</span> cuando te registres!
         </p>
       </div>
 
@@ -44,10 +43,9 @@ export default function Guilds() {
       <div className="flex justify-center leading-[3rem] tracking-wider mx-6">
         <div className="max-w-6xl px-6 py-6 mt-6 border-4 border-dashed border-pink">
           <p className="text-3xl neuebit">
-            {/* TODO: Change `Example City` to the name of your city */}
-            You can join the guild you identify with for exclusive swag and
-            badges! You also get to compete against other guilds in friendly
-            activities/challenges throughout Counterspell Example City!
+            Te puedes unir al grupo con el que te identifiques por regalos exclusivos y insignias
+            Tambien competiras contra otros grupos en actividades o desafios amistosos a travez de
+            Counterspell Santiago!
           </p>
         </div>
       </div>
