@@ -12,7 +12,7 @@ import Faq from "../components/Toronto/Faq";
 import Footer from "../components/Toronto/Footer";
 
 
-export default function HongKong() {
+export default function Toronto() {
   const [docHeight, setDocHeight] = useState(0);
   const [scrollPos, setScrollPos] = useState(0);
   const [isMuted, setIsMuted] = useState(true);

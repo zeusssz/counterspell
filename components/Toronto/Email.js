@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function CopyEmailButton() {
+export default function Email() {
   const [copied, setCopied] = useState(false);
   const email = "counterspellgta@gmail.com";
 
