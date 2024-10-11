@@ -7,10 +7,12 @@ import About from "../components/Toronto/About";
 import Guilds from "../components/Toronto/Guilds";
 import Steps from "../components/Toronto/Steps";
 import Locations from "../components/Toronto/Locations";
+import Email from "../components/Toronto/Email";
 import Faq from "../components/Toronto/Faq";
 import Footer from "../components/Toronto/Footer";
 
-export default function HongKong() {
+
+export default function Toronto() {
   const [docHeight, setDocHeight] = useState(0);
   const [scrollPos, setScrollPos] = useState(0);
   const [isMuted, setIsMuted] = useState(true);
@@ -107,6 +109,8 @@ export default function HongKong() {
           <About />
           <Guilds />
           <Steps />
+          <Email />
+
           <Locations />
 
           <div className="flex flex-col justify-center py-12 text-center faq fusion-pixel">
