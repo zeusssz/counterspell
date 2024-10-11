@@ -17,7 +17,10 @@ export default function Locations() {
   const [submitBtn, setSubmitBtn] = useState("Continue");
 
   return (
-    <div className="relative px-6 py-24 text-center neuebit bg-darker retro">
+    <div
+      className="relative px-6 py-24 text-center neuebit bg-darker retro"
+      id="signup"
+    >
       <div className="flex flex-col items-center space-y-3 uppercase">
         <p className="text-3xl text-center">
           Sign up for Counterspell Silicon Valley

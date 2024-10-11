@@ -30,6 +30,8 @@ import Head from "next/head";
 // TODO: Change `SiliconValley` to the name of your city. This should match the folder you copied!
 import Hero from "../components/SiliconValley/Hero";
 import About from "../components/SiliconValley/About";
+import Action from "../components/SiliconValley/Action";
+import Sponsors from "../components/SiliconValley/Sponsors";
 import Guilds from "../components/SiliconValley/Guilds";
 import Steps from "../components/SiliconValley/Steps";
 import Locations from "../components/SiliconValley/Locations";
@@ -133,6 +135,8 @@ export default function SiliconValley() {
           <div className="absolute top-0 left-0 right-0 -bottom-4 -z-10 bg-dark"></div>
 
           <About />
+          <Action />
+          <Sponsors />
           <Guilds />
           <Steps />
           <Locations />
