@@ -107,6 +107,7 @@ export default function HongKong() {
           <About />
           <Guilds />
           <Steps />
+
           <Locations />
 
           <div className="flex flex-col justify-center py-12 text-center faq fusion-pixel">
