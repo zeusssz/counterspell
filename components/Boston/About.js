@@ -9,7 +9,7 @@ export default function About() {
           <div className="row-span-2 border-4 border-pink border-dashed p-8 md:p-12 space-y-12">
             <p>
               Counterspell Boston is a beginner friendly game jam for high
-              schoolers happening in Example City where{" "}
+              schoolers happening in Boston where{" "}
               <span className="text-pink">artists, musicians, and coders</span>{" "}
               get together to build apps and games.
             </p>
