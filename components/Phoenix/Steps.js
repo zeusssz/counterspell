@@ -34,10 +34,8 @@ export default function Steps() {
           </div>
           <div className="py-10 mx-6 space-y-4 text-xl uppercase retro">
             <p>
-              {/* TODO: Change `Example City` to the name of your city */}
-              Counterspell Example City will go on for{" "}
-              {/* TODO: Change `24 hours` to match your event duration */}
-              <span className="text-pink">24 hours</span>
+              Counterspell Phoenix will go on for{" "}
+              <span className="text-pink">12 hours</span>
             </p>
             <p>Here's a rough schedule so you know what to expect!</p>
           </div>
