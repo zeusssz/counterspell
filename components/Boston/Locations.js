@@ -26,7 +26,12 @@ export default function Locations() {
       <div className="flex justify-center pt-24">
         <div className="grid items-center justify-center w-full max-w-5xl grid-cols-1 gap-8 text-2xl lg:grid-cols-2">
           {cities.map((city, i) => (
-            <p className="lg:odd:text-left lg:even:text-right" key={i}>
+            <p
+              className={`${
+                city.includes("Boston") ? "text-pink" : ""
+              } lg:odd:text-left lg:even:text-right`}
+              key={i}
+            >
               {city}
             </p>
           ))}
