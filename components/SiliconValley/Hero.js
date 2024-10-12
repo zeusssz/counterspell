@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="min-h-screen">
         <div
           className="relative flex flex-col justify-center text-center bg-top bg-no-repeat bg-cover pointer-events-none select-none -z-10 overflow-x-clip"
-          style={{ backgroundImage: `url(/city/Silicon-Valley/hero/bg5.png)` }}
+          style={{ backgroundImage: `url(/city/sillicon-valley/hero/bg5.png)` }}
         >
           <HeroScroll />
         </div>
@@ -93,7 +93,7 @@ function HeroScroll() {
               screenWidth > 640 ? (scrollY * 1) / 20 : 0
             }px)`,
           }}
-          src="/city/Silicon-Valley/hero/bg1.png"
+          src="/city/sillicon-valley/hero/bg1.png"
           alt=""
         />
         <img
@@ -103,7 +103,7 @@ function HeroScroll() {
               screenWidth > 640 ? (scrollY * 2) / 20 : 0
             }px)`,
           }}
-          src="/city/Silicon-Valley/hero/bg2.png"
+          src="/city/sillicon-valley/hero/bg2.png"
           alt=""
         />
         <img
@@ -113,7 +113,7 @@ function HeroScroll() {
               screenWidth > 640 ? (scrollY * 3) / 20 : 0
             }px)`,
           }}
-          src="/city/Silicon-Valley/hero/bg3.png"
+          src="/city/sillicon-valley/hero/bg3.png"
           alt=""
         />
         <img
@@ -123,7 +123,7 @@ function HeroScroll() {
               screenWidth > 640 ? (scrollY * 4) / 20 : 0
             }px)`,
           }}
-          src="/city/Silicon-Valley/hero/bg4.png"
+          src="/city/sillicon-valley/hero/bg4.png"
           alt=""
         />
       </div>
