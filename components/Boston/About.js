@@ -26,11 +26,11 @@ export default function About() {
           </div>
           <div
             className="border-4 border-pink border-dashed bg-cover bg-center bg-clip-padding h-64 xl:h-auto"
-            style={{ backgroundImage: `url(${about1})` }}
+            style={{ backgroundImage: `url(/photos/1.png)` }}
           ></div>
           <div
             className="hidden xl:block border-4 border-pink border-dashed bg-cover bg-center bg-clip-padding"
-            style={{ backgroundImage: `url(${about2})` }}
+            style={{ backgroundImage: `url(/photos/2.png)` }}
           ></div>
         </div>
       </div>
