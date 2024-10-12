@@ -9,8 +9,6 @@ import Steps from "../components/Dhaka/Steps";
 import Locations from "../components/Dhaka/Locations";
 import Faq from "../components/Dhaka/Faq";
 import Footer from "../components/Dhaka/Footer";
-import Footer from "../components/Dhaka/Schedule";
-
 
 export default function Dhaka() {
   const [docHeight, setDocHeight] = useState(0);
