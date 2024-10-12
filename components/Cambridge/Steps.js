@@ -12,7 +12,6 @@ export default function Steps() {
             <div className="flex flex-wrap items-center justify-center gap-6 p-8 border-4 border-dashed border-pink inter">
               <StepCard
                 img="/photos/3.png"
-                // TODO: Change `Example City` to the name of your city
                 text="Sign up for Counterspell Cambridge"
               />
               <StepCard
@@ -35,7 +34,6 @@ export default function Steps() {
           </div>
           <div className="py-10 mx-6 space-y-4 text-xl uppercase retro">
             <p>
-              {/* TODO: Change `Example City` to the name of your city */}
               Counterspell Cambridge will go on for{" "} 
               <span className="text-pink">12 hours</span>
             </p>
