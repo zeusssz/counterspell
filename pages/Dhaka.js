@@ -1,10 +1,7 @@
-
-
 import React, { useEffect, useRef, useState } from "react";
 import useSound from "use-sound";
 import Head from "next/head";
 
-// TODO: Change `ExampleCity` to the name of your city. This should match the folder you copied!
 import Hero from "../components/Dhaka/Hero";
 import About from "../components/Dhaka/About";
 import Guilds from "../components/Dhaka/Guilds";
@@ -13,7 +10,6 @@ import Locations from "../components/Dhaka/Locations";
 import Faq from "../components/Dhaka/Faq";
 import Footer from "../components/Dhaka/Footer";
 
-// TODO: Change `ExampleCity` to the name of your city
 export default function Dhaka() {
   const [docHeight, setDocHeight] = useState(0);
   const [scrollPos, setScrollPos] = useState(0);
@@ -48,7 +44,6 @@ export default function Dhaka() {
   return (
     <>
       <Head>
-        {/* TODO: Change `Example City` to the name of your city */}
         <title>Counterspell Dhaka</title>
       </Head>
       <div>
