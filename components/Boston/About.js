@@ -1,9 +1,6 @@
-import about1 from "../../art/images/about1.png";
-import about2 from "../../art/images/about2.png";
-
 export default function About() {
   return (
-    <div class="flex justify-center neuebit text-3xl py-24">
+    <div className="flex justify-center neuebit text-3xl py-24">
       <div className="max-w-8xl space-y-12">
         <h2 className="text-center retro uppercase text-4xl text-whitepurp pb-6">
           Make games, <span className="text-pink">meet cool people</span>
@@ -13,15 +10,13 @@ export default function About() {
             <p>
               Counterspell Boston is a beginner friendly game jam for high
               schoolers happening in Example City where{" "}
-              <span className="text-pink">
-                artists, musicians, and coders
-              </span>{" "}
+              <span className="text-pink">artists, musicians, and coders</span>{" "}
               get together to build apps and games.
             </p>
             <p className="retro text-2xl uppercase">Build whatever you want!</p>
             <p>
-              Any game counts! The theme for Counterspell Boston will be
-              decided through peer voting before the event starts.{" "}
+              Any game counts! The theme for Counterspell Boston will be decided
+              through peer voting before the event starts.{" "}
             </p>
             <p>
               Whether you’re a beginner or experienced in programming- we’ll

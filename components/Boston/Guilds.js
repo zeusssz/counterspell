@@ -1,12 +1,8 @@
 import { Tilt } from "react-next-tilt";
 
-import hacker from "../../art/cards/hacker.png";
-import musician from "../../art/cards/musician.png";
-import artist from "../../art/cards/artist.png";
-
-export default function Cards() {
+export default function Guilds() {
   return (
-    <div className="flex flex-col justify-center items-center text-center py-24 retro bg-darker">
+    <div className="flex flex-col items-center justify-center py-24 text-center retro bg-darker">
       <div className="text-3xl uppercase leading-[4rem] mx-6">
         <p>Artist, Musician or Coder?</p>
         <p>
@@ -15,11 +11,11 @@ export default function Cards() {
         </p>
       </div>
 
-      <div className="flex flex-wrap justify-center xl:justify-between max-w-6xl gap-8 py-10 w-full">
+      <div className="flex flex-wrap justify-center w-full max-w-6xl gap-8 py-10 xl:justify-between">
         <Tilt className="rounded-lg" scale={1.1}>
           <div>
             <img
-              src={artist}
+              src="/cards/artist.png"
               alt="Artist card"
               className="rounded-lg max-w-[340px]"
             />
@@ -28,7 +24,7 @@ export default function Cards() {
         <Tilt className="rounded-lg" scale={1.1}>
           <div>
             <img
-              src={musician}
+              src="/cards/musician.png"
               alt="Musician card"
               className="rounded-lg max-w-[340px]"
             />
@@ -37,7 +33,7 @@ export default function Cards() {
         <Tilt className="rounded-lg" scale={1.1}>
           <div>
             <img
-              src={hacker}
+              src="/cards/hacker.png"
               alt="Hacker card"
               className="rounded-lg  max-w-[340px]"
             />
@@ -46,8 +42,9 @@ export default function Cards() {
       </div>
 
       <div className="flex justify-center leading-[3rem] tracking-wider mx-6">
-        <div className="mt-6 border-4 border-dashed border-pink max-w-6xl py-6 px-6">
-          <p class="neuebit text-3xl">
+        <div className="max-w-6xl px-6 py-6 mt-6 border-4 border-dashed border-pink">
+          <p className="text-3xl neuebit">
+            {/* TODO: Change `Example City` to the name of your city */}
             You can join the guild you identify with for exclusive swag and
             badges! You also get to compete against other guilds in friendly
             activities/challenges throughout Counterspell Boston!

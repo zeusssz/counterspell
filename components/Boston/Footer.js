@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
-    <div className="mt-4 p-6 bg-pink text-2xl neuebit">
+    <div className="p-6 pt-4 text-2xl bg-pink neuebit">
       <div className="text-center">
         <p>Built with love by teenagers, for teenagers at Hack Club</p>
       </div>
-      <div className="flex justify-center items-center ">
+      <div className="flex items-center justify-center ">
         <a
           href="https://hackclub.com"
           target="_blank"
@@ -48,6 +48,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           className="mx-2"
         >
+          {/* Please keep this attribution */}
           Art by Elena Baskakova (18, Boston)
         </a>
       </div>

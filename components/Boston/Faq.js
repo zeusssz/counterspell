@@ -16,16 +16,16 @@ import {
 import { CSS as dndCSS } from "@dnd-kit/utilities";
 import { confetti } from "@tsparticles/confetti";
 
-import faq1 from "../../art/faqbkgr/faq1.png";
-import faq2 from "../../art/faqbkgr/faq2.png";
-import faq3 from "../../art/faqbkgr/faq3.png";
-import faq4 from "../../art/faqbkgr/faq4.png";
-import faq5 from "../../art/faqbkgr/faq5.png";
-import faq6 from "../../art/faqbkgr/faq6.png";
-import faq7 from "../../art/faqbkgr/faq7.png";
-import faq8 from "../../art/faqbkgr/faq8.png";
-
-const faqBkgrs = [faq1, faq2, faq3, faq4, faq5, faq6, faq7, faq8];
+const faqBkgrs = [
+  "/faqbkgr/faq1.png",
+  "/faqbkgr/faq2.png",
+  "/faqbkgr/faq3.png",
+  "/faqbkgr/faq4.png",
+  "/faqbkgr/faq5.png",
+  "/faqbkgr/faq6.png",
+  "/faqbkgr/faq7.png",
+  "/faqbkgr/faq8.png",
+];
 
 const faqData = [
   {
@@ -95,11 +95,11 @@ function FaqCard(props) {
       {...attributes}
       {...listeners}
     >
-      <div className="p-5 h-full">
-        <div className="h-full bg-black/40 p-3 flex flex-col justify-center">
+      <div className="h-full p-5">
+        <div className="flex flex-col justify-center h-full p-3 bg-black/40">
           <p className="mb-2 text-lg uppercase retro">{faqItem.question}</p>
           <p
-            className="neuebit text-xl text-justify leading-6"
+            className="text-xl leading-6 text-justify neuebit"
             dangerouslySetInnerHTML={{ __html: faqItem.answer }}
           ></p>
         </div>
@@ -153,7 +153,7 @@ export default function Faq() {
   );
 
   return (
-    <div className="p-5 gap-8 inter grid lg:grid-cols-2">
+    <div className="grid gap-8 p-5 inter lg:grid-cols-2">
       {screenWidth > 1024 ? (
         <DndContext sensors={sensors} onDragEnd={handleDragEnd}>
           <SortableContext items={faqItems}>
