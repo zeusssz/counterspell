@@ -1,4 +1,4 @@
-import Schedule from "../ExampleCity/Schedule";
+import Schedule from "./Schedule";
 
 export default function Steps() {
   return (
