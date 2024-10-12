@@ -3,30 +3,27 @@ export default function About() {
     <div className="flex justify-center neuebit text-3xl py-24">
       <div className="space-y-12 max-w-8xl">
         <h2 className="pb-6 text-4xl text-center uppercase retro text-whitepurp">
-          Make games, <span className="text-pink">meet cool people</span>
+          Crea juegos, <span className="text-pink">conoce gente</span>
         </h2>
         <div className="grid grid-cols-1 xl:grid-cols-2 grid-rows-2 gap-12 leading-[3rem] tracking-wider mx-6 2xl:mx-0">
           <div className="row-span-2 p-8 space-y-12 border-4 border-dashed border-pink md:p-12">
             <p>
               {/* TODO: Change `Example City` to the name of your city */}
-              Counterspell Example City is a beginner friendly game jam for high
-              schoolers happening in Example City where{" "}
+              Counterspell Lima es una game jam para adolescentes en la que{" "}
               <span className="text-pink">
-                artists, musicians, and coders
+                artistas, músicos y programadores
               </span>{" "}
-              get together to build apps and games.
+              se unen para construir juegos y aplicaciones.
             </p>
-            <p className="text-2xl uppercase retro">Build whatever you want!</p>
+            <p className="text-2xl uppercase retro">¡Crea lo que sea!</p>
             <p>
               {/* TODO: Change `Example City` to the name of your city */}
-              Any game counts! The theme for Counterspell Example City will be
-              decided through peer voting before the event starts.{" "}
+              ¡Cualquier juego cuenta! El tema de Counterspell Lima será decidido
+              por votación popular antes de que el evento comience.{" "}
             </p>
             <p>
               {/* TODO: Change `24 hours` to match your event duration */}
-              Whether you’re a beginner or experienced in programming- we’ll
-              have workshops, resources and mentors throughout the 24 hours to
-              help you with your project.
+              Da igual que seas principiante o programador experimentado, tendremos guías y recursos para ayudarte a crear tu proyecto durante todo el evento.
             </p>
           </div>
           <div
