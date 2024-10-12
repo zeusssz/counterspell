@@ -14,6 +14,7 @@ export default function Schedule() {
     { time: "10:30 AM", event: "Game demos!" },
     { time: "12:00 PM", event: "Closing ceremony" },
   ];
+
   return (
     <>
       <div className="flex flex-col items-center neuebit">
