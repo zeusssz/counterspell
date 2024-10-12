@@ -15,6 +15,15 @@ export default function Footer() {
         </a>{" "}
         |{" "}
         <a
+          href="https://raspberrypi.org"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mx-4"
+        >
+          Raspberry Pi Foundation
+        </a>{" "}
+        |{" "}
+        <a
           href="https://hackclub.com/slack/"
           target="_blank"
           rel="noopener noreferrer"
@@ -48,7 +57,6 @@ export default function Footer() {
           rel="noopener noreferrer"
           className="mx-2"
         >
-          {/* Please keep this attribution */}
           Art by Elena Baskakova (18, Boston)
         </a>
       </div>
