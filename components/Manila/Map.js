@@ -1,5 +1,5 @@
 // Code snippet from: https://github.com/hackclub/counterspell/pull/3
-// Modified to tailor the page's needs
+// Modified to tailor the page's needs.
 
 import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
