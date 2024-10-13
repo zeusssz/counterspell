@@ -2,7 +2,6 @@ import Subscribe from "../Subscribe";
 
 export default function Locations() {
   const cities = [
-    "Dhaka, Bangladesh",
     "Boston, MA",
     "New York City, NY",
     "Ottawa, ON",
