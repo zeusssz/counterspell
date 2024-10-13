@@ -5,7 +5,7 @@ export default function Steps() {
     <div className="py-12 space-y-6">
       <div className="flex flex-col justify-center text-center">
         <div className="">
-          <p className="py-10 mx-6 text-3xl uppercase retro">
+          <p className="py-10 mx-6 text-3xl uppercase retro" id="steps">
             How does a <span className="text-pink">game jam</span> work?
           </p>
           <div className="flex justify-center mx-12 my-6">

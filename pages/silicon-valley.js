@@ -141,7 +141,10 @@ export default function SiliconValley() {
           <Steps />
           <Locations />
 
-          <div className="flex flex-col justify-center py-12 text-center faq retro">
+          <div
+            className="flex flex-col justify-center py-12 text-center faq retro"
+            id="faq"
+          >
             <div className="m-6">
               <p className="mb-6 text-3xl uppercase">
                 Frequently Asked Questions
