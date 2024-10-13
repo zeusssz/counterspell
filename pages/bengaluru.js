@@ -72,7 +72,7 @@ export default function Bengaluru() {
     <>
       <Head>
         {/* TODO: Change `Example City` to the name of your city */}
-        <title>Counterspell Example City</title>
+        <title>Counterspell Bengaluru</title>
       </Head>
       <div>
         <div
