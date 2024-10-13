@@ -41,10 +41,15 @@ export default function Locations() {
       </div>
 
       <div className="flex flex-col items-center space-y-3 uppercase">
-        <p className="text-xl text-center">
-          Get notified when registrations open
-        </p>
-        <Subscribe eventName="Cambridge" />
+        <a
+          className="z-30 w-full max-w-6xl px-6 py-6 mt-6 text-2xl uppercase bg-pink hover:text-white motion-safe:hover:scale-105 motion-safe:transition-all"
+          href="https://counterspell-interest.mattsoh.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecorationLine: "none" }}
+        >
+          Sign up to attend Counterspell Cambridge
+        </a>
       </div>
     </div>
   );
