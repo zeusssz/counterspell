@@ -7,26 +7,6 @@ export default function Hero() {
       <div className="absolute top-0 left-0 w-[20%] md:w-40 2xl:w-64">
         <Banner style={{ width: "100%" }} />
       </div>
-      <div className="absolute top-0 left-0 w-[20%] md:w-40 2xl:w-64">
-        <a
-          href="https://raspberrypi.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            style={{
-              width: "230px",
-              position: "absolute",
-              top: "80px",
-              left: 10,
-              border: 0,
-              zIndex: 999,
-            }}
-            src={`https://www.raspberrypi.org/assets/components/site/header/foundation-logo-b0f19781e462be54d3371c3da03431bb6dc407fca9f36820d27a7ff4e673406e.svg`}
-            alt="Raspberry Pi Foundation"
-          />
-        </a>
-      </div>
       <div className="min-h-screen">
         <div
           className="relative flex flex-col justify-center text-center bg-top bg-no-repeat bg-cover pointer-events-none select-none -z-10 overflow-x-clip"
@@ -98,7 +78,8 @@ function HeroScroll() {
                 A BEGINNER FRIENDLY GAME JAM
               </p>
               <p className="text-pink retro text-[80%] sm:text-[90%] lg:text-[90%] mt-2">
-                NOVEMBER 23, 2024 • RASPBERRY PI, CAMBRIDGE
+                {/* TODO: Replace `EXAMPLE CITY` with your city */}
+                NOVEMBER 23-24, 2024 • BENGALURU
               </p>
             </div>
           </div>

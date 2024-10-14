@@ -31,8 +31,8 @@ const faqData = [
   {
     question: "Am I eligible to sign up?",
     answer: `If you're 18 or under, yes, we are so excited to see you! If you're over 18 but
-        still in secondary education, shoot us an email at
-        <a href="mailto:matthew@mattsoh.dev">matthew@mattsoh.dev</a>.`,
+        still in high school, shoot us an email at
+        <a href="mailto:counterspell@hackclub.com">counterspell@hackclub.com</a>.`,
   },
   {
     question: "Does participating cost anything?",
@@ -47,7 +47,7 @@ const faqData = [
   },
   {
     question: "I'm not good at coding, can I join?",
-    answer: `This hackathon is for hackers of all skill levels! We are also calling for all musicians and artists! Anyone who would like to help make video games are welcome! We'll have workshops (hosted in part by our amazing Raspberry Pi experts) and other events so join us and let's learn together. If you'd like to start exploring some introductory projects, check out <a href="https://workshops.hackclub.com/">Hack Club Workshops</a>.`,
+    answer: `This hackathon is for hackers of all skill levels! We'll have workshops and other events so join us and let's learn together. If you'd like to start exploring some introductory projects, check out <a href="https://workshops.hackclub.com/">Hack Club Workshops</a>.`,
   },
   {
     question: "What can I make at Counterspell?",
@@ -55,21 +55,17 @@ const faqData = [
   },
   {
     question: "What do I need to bring to Counterspell?",
-    answer: `Your laptop (or tablet), charger, and an open mind!`,
+    answer: `Your laptop, charger, and an open mind!`,
   },
   {
     question: "My parents are worried!",
     answer: `We're here to help! Ask them to reach out to us at
-          <a href="mailto:matthew@mattsoh.dev">matthew@mattsoh.dev</a>
+          <a href="mailto:counterspell@hackclub.com">counterspell@hackclub.com</a>
           and we'll make sure to answer all their questions!`,
   },
   {
-    question: "How can I reach out for more questions?",
-    answer: `Contact us! Reach out at
-          <a href="https://hackclub.com/slack/">#counterspell</a>
-          on the Hack Club Slack or email us at
-          <a href="mailto:matthew@mattsoh.dev">matthew@mattsoh.dev</a>.
-          We're always ready to answer all your questions!`,
+    question: "How can I apply?",
+    answer: `Registrations will open closer to the event.`,
   },
 ];
 

@@ -17,7 +17,8 @@ export default function Locations() {
   return (
     <div className="relative px-6 py-24 text-center neuebit bg-darker retro">
       <p className="text-3xl uppercase">
-        Check out other Counterspell cities!
+        {/* TODO: Replace `Bengaluru` with your city */}
+        Can't make it to Bengaluru?
       </p>
       <p className="text-xl">
         There are 200+ other Counterspell locations worldwide!
@@ -35,21 +36,30 @@ export default function Locations() {
       <div className="flex justify-center my-20 space-y-2 text-2xl text-center">
         <div className="px-6 py-6 text-4xl tracking-wider border-4 border-dashed border-pink neuebit">
           <p>
-            Counterspell Cambridge is organized by teenagers, for teenagers.
+            {/* TODO: Replace `Bengaluru` with your city */}
+            Counterspell Bengaluru is organized by teenagers, for teenagers.
+          </p>
+          <p>
+            Organize a Counterspell event in your city.{" "}
+            <a
+              href="https://hack.club/counterspell-signup"
+              target="_blank"
+              rel="noreferrer"
+              className="text-pink"
+            >
+              Sign up
+            </a>
+            .
           </p>
         </div>
       </div>
 
       <div className="flex flex-col items-center space-y-3 uppercase">
-        <a
-          className="z-30 w-full max-w-6xl px-6 py-6 mt-6 text-2xl uppercase bg-pink hover:text-white motion-safe:hover:scale-105 motion-safe:transition-all"
-          href="https://counterspell-interest.mattsoh.dev"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ textDecorationLine: "none" }}
-        >
-            r interest in Counterspell Cambridge
-        </a>
+        <p className="text-xl text-center">
+          Get notified when registrations open
+        </p>
+        {/* TODO: Replace `Bengaluru` with your city */}
+        <Subscribe eventName="Bengaluru"/>
       </div>
     </div>
   );
