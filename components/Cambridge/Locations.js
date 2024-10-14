@@ -48,7 +48,7 @@ export default function Locations() {
           rel="noopener noreferrer"
           style={{ textDecorationLine: "none" }}
         >
-            r interest in Counterspell Cambridge
+          Register interest in Counterspell Cambridge
         </a>
       </div>
     </div>
