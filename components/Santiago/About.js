@@ -8,7 +8,7 @@ export default function About() {
         <div className="grid grid-cols-1 xl:grid-cols-2 grid-rows-2 gap-12 leading-[3rem] tracking-wider mx-6 2xl:mx-0">
           <div className="row-span-2 p-8 space-y-12 border-4 border-dashed border-pink md:p-12">
             <p>
-              Counterspell Santiago es una game jam apta para principiantes occuriendo en Santiago donde{" "}
+              Counterspell Santiago es una game jam apta para principiantes ocurriendo en Santiago donde{" "}
               <span className="text-pink">
               artistas, musicos, y programadores
               </span>{" "}
@@ -17,7 +17,7 @@ export default function About() {
             <p className="text-2xl uppercase retro">¡Construye lo que quieras!</p>
             <p>
               ¡Cualquier juego cuenta! El tema de Counterspell Santiago
-              sera decidido a travez de votacion antes de que el evento comience.{" "}
+              será decidido a través de votación antes de que el evento comience.{" "}
             </p>
             <p>
               Sin importar si eres principiante o ya tienes experiencia en programación
