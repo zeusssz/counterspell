@@ -15,7 +15,7 @@ export default function Sponsors() {
     <div className="py-12 space-y-6">
       <div className="flex flex-col justify-center text-center">
         <div className="">
-          <p className="py-10 mx-6 text-3xl uppercase retro">
+          <p className="py-10 mx-6 text-3xl uppercase retro" id="sponsors">
             Check out our amazing <span className="text-pink">sponsors</span>!
           </p>
           <div className="flex justify-center mx-12 my-6">

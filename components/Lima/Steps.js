@@ -5,39 +5,41 @@ export default function Steps() {
     <div className="py-12 space-y-6">
       <div className="flex flex-col justify-center text-center">
         <div className="">
-          <p className="py-10 mx-6 text-3xl uppercase retro" id="steps">
-            How does a <span className="text-pink">game jam</span> work?
+          <p className="py-10 mx-6 text-3xl uppercase retro">
+            ¿Cómo funciona un <span className="text-pink">game jam</span>?
           </p>
           <div className="flex justify-center mx-12 my-6">
             <div className="flex flex-wrap items-center justify-center gap-6 p-8 border-4 border-dashed border-pink inter">
-              <StepCard
+            <StepCard
                 img="/photos/3.png"
-                text="Sign up for Counterspell Silicon Valley"
+                text="Apúntate a Counterspell Lima."
               />
               <StepCard
                 img="/photos/4.png"
-                text="Find a team of other teenagers at Counterspell"
+                text="Encuentra a un equipo con otros adolescentes en Counterspell."
               />
               <StepCard
                 img="/photos/5.png"
-                text="Start building your game (no experience needed)"
+                text="Empieza a construir tu juego (no necesitas experiencia)."
               />
               <StepCard
                 img="/photos/6.png"
-                text="Attend workshops, or talk to one of our mentors for help"
+                text="Asiste a workshops o pídele a uno de nuestros mentores ayuda."
               />
               <StepCard
                 img="/photos/7.png"
-                text="Ship what you made and share it with the rest of the world!"
+                text="Publica lo que has creado y compártelo con el mundo."
               />
             </div>
           </div>
           <div className="py-10 mx-6 space-y-4 text-xl uppercase retro">
             <p>
-              Counterspell Silicon Valley will go on for approximately{" "}
-              <span className="text-pink">24 hours</span>
+              {/* TODO: Change `Example City` to the name of your city */}
+              Counterspell Lima será por{" "}
+              {/* TODO: Change `24 hours` to match your event duration */}
+              <span className="text-pink">12 hours</span>
             </p>
-            <p>Here's a rough schedule so you know what to expect!</p>
+            <p>Aquí tienes un horario preliminar para saber qué esperar.</p>
           </div>
         </div>
       </div>
