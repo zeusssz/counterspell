@@ -42,6 +42,8 @@ export default function Boston() {
   const [scrollPos, setScrollPos] = useState(0);
   const [isMuted, setIsMuted] = useState(true);
 
+  const registrationRef = useRef(null);
+
   const [play, { stop }] = useSound("/music.mp3", { volume: isMuted ? 0 : 1 });
 
   useEffect(() => {
@@ -67,6 +69,12 @@ export default function Boston() {
     }
     setIsMuted(!isMuted);
   }
+
+  const scrollToRegistration = () => {
+    if (registrationRef.current) {
+      registrationRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  };
 
   return (
     <>
@@ -126,6 +134,13 @@ export default function Boston() {
           <source src="/music.mp3" type="audio/mp3" />
         </audio>
 
+        <button
+          onClick={scrollToRegistration}
+          className="hidden sm:block text-white fixed top-4 right-4 retro bg-pink py-2 px-3 uppercase z-50 hover:scale-105 hover:text-white"
+        >
+          Preregister
+        </button>
+
         <Hero />
 
         <div className="relative">
@@ -135,7 +150,7 @@ export default function Boston() {
           <About />
           <Guilds />
           <Steps />
-          <Locations />
+          <Locations registrationRef={registrationRef} />
 
           <div className="flex flex-col justify-center py-12 text-center faq retro">
             <div className="m-6">
