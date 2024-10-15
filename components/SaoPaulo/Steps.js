@@ -6,7 +6,7 @@ export default function Steps() {
       <div className="flex flex-col justify-center text-center">
         <div className="">
           <p className="py-10 mx-6 text-3xl uppercase retro">
-            How does a <span className="text-pink">game jam</span> work?
+            Como uma <span className="text-pink">game jam</span> funciona?
           </p>
           <div className="flex justify-center mx-12 my-6">
             <div className="flex flex-wrap items-center justify-center gap-6 p-8 border-4 border-dashed border-pink inter">
