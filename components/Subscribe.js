@@ -1,7 +1,18 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Subscribe(props) {
   const [submitBtn, setSubmitBtn] = useState("Sign up");
+  const [numDots, setNumDots] = useState(3);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (submitBtn === "Loading") {
+        setNumDots((prevNumDots) => 1 + (prevNumDots) % 3);
+      }
+    }, 300);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <form
@@ -26,11 +37,14 @@ export default function Subscribe(props) {
         id="formSubmit"
       >
         {submitBtn}
+        {submitBtn == "Loading" ? ".".repeat(numDots) : ""}
       </button>
     </form>
   );
 
   function handleSubmit(e) {
+    setSubmitBtn("Loading");
+
     e.preventDefault();
     const form = e.target;
 
