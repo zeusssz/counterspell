@@ -135,7 +135,7 @@ export default function Sponsors() {
           </div>
           <br></br>
           <p className="text-xl uppercase retro" style={{ fontSize: "1rem" }}>
-            <span style={{ color: "#65709c" }}>Other</span> Sponsors
+            <span style={{ color: "#65709c" }}>Special</span> Sponsors
           </p>
           <div
             className="flex justify-center mx-12 my-6"
