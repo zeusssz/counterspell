@@ -10,7 +10,7 @@ export default function About() {
             <p>
               {/* TODO: Change `Example City` to the name of your city */}
               Counterspell Dhaka is a beginner friendly game jam for high
-              schoolers happening in Dhaka where{"at Impact Hub"}
+              schoolers happening in Impact Hub, Mirpur{" "}
               <span className="text-pink">
                 artists, musicians, and coders
               </span>{" "}
