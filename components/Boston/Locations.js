@@ -1,6 +1,6 @@
 import Subscribe from "../Subscribe";
 
-export default function Locations() {
+export default function Locations({ registrationRef }) {
   // Do not update this list! We'll update it for you.
   const cities = [
     "Boston, MA",
@@ -59,7 +59,7 @@ export default function Locations() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center space-y-3 uppercase">
+      <div ref={registrationRef} className="flex flex-col items-center space-y-3 uppercase">
         <p className="text-xl text-center">
           Get notified when registrations open
         </p>
