@@ -40,14 +40,14 @@ export default function Locations() {
             Counterspell Singapore is organized by teenagers, for teenagers.
           </p>
           <p>
-            Organize a Counterspell event in your city.{" "}
+            Find a Counterspell event in your city.{" "}
             <a
-              href="https://hack.club/counterspell-signup"
+              href="https://counterspell.hackclub.com/"
               target="_blank"
               rel="noreferrer"
               className="text-pink"
             >
-              Sign up
+              Main website
             </a>
             .
           </p>
