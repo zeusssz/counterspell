@@ -36,7 +36,7 @@ export default function Locations() {
         <div className="px-6 py-6 text-4xl tracking-wider border-4 border-dashed border-pink neuebit">
           <p>
             {/* TODO: Replace `Example City` with your city */}
-            Counterspell Example City is organized by teenagers, for teenagers.
+            Counterspell Hong Kong is organized by teenagers, for teenagers.
           </p>
           <p>
             Organize a Counterspell event in your city.{" "}
@@ -58,7 +58,7 @@ export default function Locations() {
           Get notified when registrations open
         </p>
         {/* TODO: Replace `Example City` with your city */}
-        <Subscribe eventName="Example City" />
+        <Subscribe eventName="Hong Kong" />
       </div>
     </div>
   );
