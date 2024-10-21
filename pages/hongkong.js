@@ -9,6 +9,7 @@ import Steps from "../components/HongKong/Steps";
 import Locations from "../components/HongKong/Locations";
 import Faq from "../components/HongKong/Faq";
 import Footer from "../components/HongKong/Footer";
+import Sponsors from "../components/HongKong/Sponsors";
 
 export default function HongKong() {
   const [docHeight, setDocHeight] = useState(0);
@@ -123,6 +124,8 @@ export default function HongKong() {
           <Guilds />
           <Steps />
           <Locations />
+
+          <Sponsors />
 
           <div className="flex flex-col justify-center py-12 text-center faq fusion-pixel">
             <div className="m-6">
