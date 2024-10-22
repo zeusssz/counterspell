@@ -125,27 +125,7 @@ export async function register(data) {
     tableName: "Participants",
   });
 
-  const EventsTable = new AirtablePlus({
-    baseID: process.env.AIRTABLE_BASE_ID,
-    apiKey: process.env.AIRTABLE_API_KEY,
-    tableName: "Events",
-  });
-
-  const events = await EventsTable.read();
-  const eventNames = events.map((event) => event.fields["Event Name- Final"]);
-  const eventSlugs = eventNames.map((name) =>
-    name
-      .normalize("NFKD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .toLowerCase()
-      .trim()
-      .replace(" ", "-")
-  );
-
   console.debug(`Registering participant`);
-
-  const linkedEventName = eventNames[eventSlugs.indexOf(data["Event Name"])];
-  data["Events Link"] = [linkedEventName];
 
   // jank to get around airtable-plus not supporting typecast
   const { tableName, base } = ParticipantTable._mergeConfig();
@@ -181,6 +161,32 @@ export default async function handler(req, res) {
 
   let body = req.body;
   const bodyKeys = Object.keys(body);
+
+  const EventsTable = new AirtablePlus({
+    baseID: process.env.AIRTABLE_BASE_ID,
+    apiKey: process.env.AIRTABLE_API_KEY,
+    tableName: "Events",
+  });
+
+  const events = await EventsTable.read();
+  const eventNames = events.map((event) => event.fields["Event Name- Final"]);
+  const eventSlugs = eventNames.map((name) =>
+    name
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(".", "")
+      .toLowerCase()
+      .trim()
+      .replace(" ", "-")
+  );
+
+  if (!eventSlugs.includes(city)) {
+    return res.status(400).json({
+      ok: false,
+      error: "Invalid city",
+    });
+  }
+  const linkedEventName = eventNames[eventSlugs.indexOf(city)];
 
   const errors = [];
   const warnings = [];
@@ -316,6 +322,7 @@ export default async function handler(req, res) {
   );
 
   body["Event Name"] = city;
+  body["Events Link"] = [linkedEventName];
 
   try {
     await register(body);
