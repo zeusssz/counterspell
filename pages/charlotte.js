@@ -37,7 +37,7 @@ import Faq from "../components/Charlotte/Faq";
 import Footer from "../components/Charlotte/Footer";
 
 // TODO: Change `ExampleCity` to the name of your city
-export default function ExampleCity() {
+export default function Charlotte() {
   const [docHeight, setDocHeight] = useState(0);
   const [scrollPos, setScrollPos] = useState(0);
   const [isMuted, setIsMuted] = useState(true);
