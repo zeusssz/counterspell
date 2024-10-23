@@ -168,22 +168,25 @@ export default async function handler(req, res) {
     tableName: "Events",
   });
 
-  const events = await EventsTable.read();
+  const events = await EventsTable.read({
+    filterByFormula: "{Approval} = 'Approved'",
+  });
   const eventNames = events.map((event) => event.fields["Event Name- Final"]);
   const eventSlugs = eventNames.map((name) =>
     name
-      .normalize("NFKD")
+      .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "")
-      .replace(".", "")
+      .replace(/[.\(\)]/g, "")
       .toLowerCase()
       .trim()
-      .replace(" ", "-")
+      .replace(/ /g, "-")
   );
 
   if (!eventSlugs.includes(city)) {
     return res.status(400).json({
       ok: false,
       error: "Invalid city",
+      valid_cities: eventSlugs,
     });
   }
   const linkedEventName = eventNames[eventSlugs.indexOf(city)];
