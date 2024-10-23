@@ -318,6 +318,9 @@ export default async function handler(req, res) {
   if (errors.length > 0) {
     return res.status(400).json({
       ok: false,
+      message: testing
+        ? "REMOVE IN PRODUCTION. This is a test and if success, the participant will not be registered."
+        : undefined,
       errors,
       warnings: warnings.length > 0 ? warnings : undefined,
     });
@@ -335,7 +338,7 @@ export default async function handler(req, res) {
     return res.json({
       ok: true,
       message:
-        "Registration would have been successful, but this is a test and the participant was not actually registered",
+        "REMOVE IN PRODUCTION. Registration would have been successful, but this is a test and the participant was not actually registered",
       warnings: warnings.length > 0 ? warnings : undefined,
     });
   }
