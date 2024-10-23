@@ -160,6 +160,10 @@ export default async function handler(req, res) {
     .map((field) => field.name);
 
   let body = req.body;
+
+  const testing = body["testing"];
+  delete body["testing"];
+
   const bodyKeys = Object.keys(body);
 
   const EventsTable = new AirtablePlus({
@@ -326,6 +330,15 @@ export default async function handler(req, res) {
 
   body["Event Name"] = city;
   body["Events Link"] = [linkedEventName];
+
+  if (testing) {
+    return res.json({
+      ok: true,
+      message:
+        "Registration would have been successful, but this is a test and the participant was not actually registered",
+      warnings: warnings.length > 0 ? warnings : undefined,
+    });
+  }
 
   try {
     await register(body);
