@@ -33,7 +33,7 @@ const faqData = [
     answer: `
         Si tienes 18 años o menos, sí. ¡Esperamos verte por aquí! Si tienes más de 18 años pero estás estudiando un 
         grado medio o bachillerato, escríbenos a 
-        <a href="mailto:counterspell@nosesisaid.com">counterspell@nosesisaid.com</a>.`,
+        <a href="mailto:lima@counterspell.hackclub.com">lima@counterspell.hackclub.com</a>.`,
   },
   {
     question: "¿Cuesta algo participar?",
@@ -61,7 +61,7 @@ const faqData = [
   {
     question: "Mis padres están preocupados por algo o no entienden algo",
     answer: `Estamos aquí para ayudar,
-    diles que escriban a <a href="mailto:katherinekoo.pe@gmail.com">katherinekoo.pe@gmail.com</a>(español) o <a href="mailto:counterspell@hackclub.com">counterspell@hackclub.com</a> (inglés)
+    diles que escriban a <a href="mailto:lima@counterspell.hackclub.com">lima@counterspell.hackclub.com</a>(español) o <a href="mailto:counterspell@hackclub.com">counterspell@hackclub.com</a> (inglés)
     y nos aseguraremos de responder todas sus preguntas.`,
   },
   {
@@ -70,7 +70,7 @@ const faqData = [
           <a href="https://hackclub.com/slack/">#counterspell</a>
           en el Slack de Hack Club o escríbenos un correo a 
           <a href="mailto:counterspell@hackclub.com">counterspell@hackclub.com</a>(inglés) o 
-          <a href="mailto:katherinekoo.pe@gmail.com">katherinekoo.pe@gmail.com</a>(español).
+          <a href="mailto:lima@counterspell.hackclub.com">lima@counterspell.hackclub.com</a>(español).
           Estamos listos para responder todas vuestras preguntas.`,
   },
 ];
