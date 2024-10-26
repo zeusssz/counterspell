@@ -55,7 +55,7 @@ export default function Map() {
         maxBoundsViscosity={1.0}
         zoom={2.5}
         minZoom={1}
-        style={{ width: '100%', height: '500px' }}
+        style={{ width: '100%', height: '500px', zIndex: 0 }}
         worldCopyJump={true}
       >
         <TileLayer
@@ -71,9 +71,9 @@ export default function Map() {
            <Popup>
             {event.website ? 
                 <a href={event.website} rel="noopener noreferrer">
-                    {event.name}
+                    Counterspell {event.name}
                 </a> :
-                event.name
+                <>Counterspell {event.name}</>
             }
           </Popup>
           </Marker>
