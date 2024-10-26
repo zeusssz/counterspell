@@ -1,5 +1,7 @@
 import Subscribe from "./Subscribe";
-import Map from "./Map";
+import dynamic from "next/dynamic";
+
+const Map = dynamic(() => import("./Map"), { ssr:false });
 
 export default function Locations() {
   const cities = [

@@ -9,7 +9,7 @@ import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
 
 const mapIcon = new L.Icon({
-  iconUrl: `${process.env.PUBLIC_URL}/favicon.ico`,
+  iconUrl: `/favicon.ico`,
   iconAnchor: null,
   popupAnchor: null,
   shadowUrl: null,
@@ -37,6 +37,7 @@ export default function Map() {
       try {
         const response = await fetch('/api/v1/map');
         const data = await response.json();
+        console.log('Events:', data);
         setEvents(data);
       } catch (error) {
         console.error('Error fetching events:', error);
