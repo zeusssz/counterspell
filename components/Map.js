@@ -70,7 +70,7 @@ export default function Map() {
           >
            <Popup>
             {event.website ? 
-                <a href={event.website} target="_blank" rel="noopener noreferrer">
+                <a href={event.website} rel="noopener noreferrer">
                     {event.name}
                 </a> :
                 event.name
